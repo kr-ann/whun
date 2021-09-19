@@ -1,0 +1,20 @@
+run_1
+python run_clm.py --model_name_or_path gpt2 --train_file dataset.txt --validation_file valid.txt --output_dir model --do_train --do_eval --num_train_epochs 3 --block_size 256 --per_device_train_batch_size 1 --eval_steps 500 --save_steps 1000 --load_best_model_at_end --per_device_eval_batch_size 8
+
+run_2
+python run_clm.py --model_name_or_path gpt2 --train_file dataset.txt --validation_file valid.txt --output_dir model_2 --do_train --do_eval --num_train_epochs 6 --block_size 128 --per_device_train_batch_size 1 --eval_steps 500 --load_best_model_at_end --per_device_eval_batch_size 8 
+
+run_3
+python run_clm.py --model_name_or_path gpt2 --train_file dataset_2.txt --validation_file valid_2.txt --output_dir model_3 --do_train --do_eval --num_train_epochs 6 --block_size 256 --per_device_train_batch_size 1 --eval_steps 500 --load_best_model_at_end --per_device_eval_batch_size 8 
+
+run_4
+python run_clm.py --model_name_or_path gpt2 --train_file train_200.txt --validation_file valid_200.txt --output_dir model_4 --do_train --do_eval --num_train_epochs 6 --block_size 256 --per_device_train_batch_size 1 --eval_steps 10000 --load_best_model_at_end --per_device_eval_batch_size 8 --evaluation_strategy steps --save_steps 10000
+
+run_5
+python run_clm.py --model_name_or_path gpt2 --train_file train_QA_with_special_symbols.txt --validation_file valid_QA_with_special_symbols.txt --output_dir model_5 --do_train --do_eval --num_train_epochs 6 --block_size 256 --per_device_train_batch_size 1 --eval_steps 10000 --load_best_model_at_end --per_device_eval_batch_size 8 --evaluation_strategy steps --save_steps 10000
+                                 
+run_6
+python run_clm.py --model_name_or_path gpt2 --train_file train_QA.txt --validation_file valid_QA.txt --output_dir model_6 --do_train --do_eval --num_train_epochs 6 --block_size 256 --per_device_train_batch_size 1 --eval_steps 10000 --load_best_model_at_end --per_device_eval_batch_size 8 --evaluation_strategy steps --save_steps 10000
+                                 
+
+
