@@ -1,9 +1,13 @@
 # whun
 Humor generation project based on tuning GPT-2 on jokes corpora
 
-* folder “first run” contains the first three experiments (on little data);
-* folder “data” contains preprocessing scripts, as well as all datasets with different preprocessing;
-* “model_X” folders contain models for the corresponding runs;
-* generate.py is for joke generation given a model;
+**Preprocessing**
+* Data preprocessing.ipynb is the notebook with data visualization and preprocessing;
+* preprocess_before_train.py is the script for the final data cleaning before the training.
+
+**Model training**
 * run_clm.py is the script for generative models training;
-* runs.txt contains info on how the training was run for all the models
+* runs.txt contains info on how the training was run for all the models;
+* generate.py is the script for joke generation given a model.
+
+Humor generation report.pdf contains description of experiments and a brief analysis of results.
