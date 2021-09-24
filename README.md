@@ -27,3 +27,22 @@ This is something that does not work.
 **Python Notebooks**
 * PEGASUS_category_jokes.ipynb contains the whole workflow from pre-processing, to training and generating the jokes based on joke categories.
 * PEGASUS_title_jokes.ipynb contains the whole workflow from pre-processing, to training and generating the jokes based on joke title.
+
+## About Dataset
+
+We used the joke datasets from this github repo: https://github.com/taivop/joke-dataset
+
+```
+----------------------------------------------
+reddit_jokes.json |  195K jokes | 7.40M tokens
+stupidstuff.json  | 3.77K jokes |  396K tokens
+wocka.json        | 10.0K jokes | 1.11M tokens
+----------------------------------------------
+TOTAL             |  208K jokes | 8.91M tokens
+----------------------------------------------
+```
+## References
+
+* Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language models are unsupervised multitask learners. OpenAI blog, 1(8), 9.
+* Zhang, J., Zhao, Y., Saleh, M., & Liu, P. (2020, November). Pegasus: Pre-training with extracted gap-sentences for abstractive summarization. In International Conference on Machine Learning (pp. 11328-11339). PMLR.
+* Pungas, Taivo. (2017). A dataset of English plaintext jokes. GitHub Repository.
