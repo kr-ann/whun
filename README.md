@@ -11,7 +11,7 @@ This is something that works.
 * `runs.txt` contains info on how the training was run for all the models;
 * `generate.py` is the script for joke generation given a model.
 
-Humor generation report.pdf contains description of experiments and a brief analysis of results.
+`GPT-2 Report.pdf` contains description of experiments and a brief analysis of results.
 
 ## Sequence to Sequence Joke Generation using PEGASUS Transformer
 This is something that does not work. 
