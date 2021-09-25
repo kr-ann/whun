@@ -28,7 +28,7 @@ This is something that does not work.
 * `PEGASUS_category_jokes.ipynb` contains the whole workflow from pre-processing, to training and generating the jokes based on joke categories.
 * `PEGASUS_title_jokes.ipynb` contains the whole workflow from pre-processing, to training and generating the jokes based on joke title.
 
-`Seq2Seq-Joke-Generation` contains report of the experiments.
+`Seq2Seq-Joke-Generation.pdf` contains report of the experiments.
 
 ## About Dataset
 
